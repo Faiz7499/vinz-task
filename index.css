@@ -72,7 +72,7 @@ color: #091133;
     /* margin-top: 30px; */
 }
 .component1 p{
-    width: 530px;
+    width: 100%;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 18px;
@@ -90,7 +90,7 @@ color: #091133;
     border: 2px solid #091133;
 }
 .component1{
-    width: 50%;
+    width: 60%;
     height: 420px;
     position: relative;
     top: 120px;
@@ -116,11 +116,7 @@ color: #091133;
     margin-top: 450px; 
     position: relative;
 
-    /* top: 550px; */
-    /* left: 150px; */
     
-    width: 100%;
-    /* height: 600px; */
 }
 .contentsection{
     width: 45%;
@@ -166,7 +162,7 @@ text-align: left;
 }
 .imgsection{
     width: 45%;
-    padding: 20px;
+    padding-left: 30px;
 }
 .imgsection img{
     width: 90%;
@@ -196,8 +192,8 @@ text-align: left;
     margin-top: 20px;
     /* left: 150px; */
     /* width: 100%; */
-    padding: 40px;
-    
+
+    /* width: 100%; */
     /* height: 500px; */
   
 }
@@ -227,7 +223,7 @@ font-weight: 500;
 .contentsection1{
     width: 45%;
     /* height: 204px; */
-    padding-left: 40px;
+    padding-right: 40px;
     /* height: 500px; */
 }
 .para1{
@@ -286,10 +282,10 @@ top: 5px;
        margin-right: auto;
     }
     .contentsection1{
-        width: 100%;
+        width: 80%;
         margin-top: 50px;
         margin-left: auto;
-        padding: 0px 80px;
+        padding: 0px 40px;
         margin-right: auto;
     }
     .imagesection{
@@ -297,20 +293,30 @@ top: 5px;
         margin-left: 50px;
     }
     .imagesection img{
-        margin-top: -30px;
+        margin-top: -100px;
        width: 90%;
        padding-left: 40px;
        margin-left: auto;
        margin-right: auto;
     }
     .imgsection{
-        width: 90%;
+        width: 80%;
     }
     .imgsection img{
-        margin-top: -30px;
+        margin-top: 0px;
         width: 90%;
-        padding-left: 40px;
+        padding-left: 50px;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+@media only screen and (max-width:700px)  {
+    .component1{
+        width: 90%;
+        left: 10px;
+    }
+    .component2{
+            left: 200px;
+            width: 60%;
     }
 }
