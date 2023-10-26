@@ -50,20 +50,15 @@ body{
 }
 
 .extcomp{
- 
-/* Title */
+  
+    font-family: 'Roboto';
+    font-size: 40px;
+    /* font-weight: 400; */
+    line-height: 66px;
+    letter-spacing: 1px;
+    text-align: left;
+    
 
-
-/* Medium 50 */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 50px;
-
-/* or 132% */
-
-
-/* Colour/Main/Blue/900 */
 color: #091133;
 }
 .header{
@@ -121,24 +116,22 @@ color: #091133;
 .contentsection{
     width: 45%;
     height: 204px;
-    padding-left: 40px;
+    padding-left: 80px;
     height: 500px;
     /* margin-top: 300px; */
 }
 .headinstyle{
-    font-size: 36px;
+    font-size: 26px;
     font-family: 'Roboto';
-    font-weight: 500;
+    /* font-weight: 400; */
     color: #091133;
 }
 .para{
-    /* //styleName: Regular 16; */
+   
 font-family: 'Roboto';
-font-size: 16px;
-font-weight: 400;
-/* line-height: 26px; */
-/* letter-spacing: 0px; */
-text-align: left;
+font-size: 15px;
+
+text-align: justify;
 color: #6F7CB2;
 text-align: justify;
 }
@@ -154,18 +147,21 @@ text-align: left;
 }
 .imagesection{
     /* padding: 25px; */
-    width: 40%;
+    width: 45%;
 }
 .imagesection img{
-    width: 90%;
-    height: 90%;
+    width: 60%;
+    /* height: 90%; */
+    margin-left: 100px
 }
 .imgsection{
     width: 45%;
     padding-left: 30px;
 }
 .imgsection img{
-    width: 90%;
+    width: 60%;
+    margin-left: 80px;
+    margin-right: auto;
 }
 .subpara{  
 font-family: 'Roboto';
@@ -178,8 +174,8 @@ text-align: left;
 .contentbelwo{
     display: flex;
     justify-content: space-between;
-  position: relative;
-  top:20px;
+     position: relative;
+    top:40px;
 }
 .c1{
     width: 255px;
@@ -189,7 +185,7 @@ text-align: left;
     justify-content: space-between;
     flex-wrap: wrap;
     position: relative;
-    margin-top: 20px;
+    margin-top: 100px;
     /* left: 150px; */
     /* width: 100%; */
 
@@ -197,27 +193,29 @@ text-align: left;
     /* height: 500px; */
   
 }
+#footersvg{
+    
+    position: relative;
+    top: 500px;
+     z-index: 1;
+    /* margin-top: 20px; */
+
+    color: rgb(255, 255, 255);
+}
  .footer{
+    margin-top: 30px;
     height: 500px;
     width: 100%;
     position: relative;
     text-align: center;
-    /* top: -60px; */
-    background-color: #f0f3fd;
-    padding-top: 60px;
+    background-image: url('Rectangle.png');
+    padding-top: 150px;
 } 
-#footersvg{
-   position: relative;
-   top: 100px;
 
-   overflow-x: hidden;
-}
 #price{
 
 font-family: "Roboto";
-font-size: 50px;
-font-weight: 500;
-
+font-size: 40px;
 
 }
 .contentsection1{
@@ -261,6 +259,7 @@ top: 5px;
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
+   
 }
 .links li{
     float: left;
@@ -294,10 +293,10 @@ top: 5px;
     }
     .imagesection img{
         margin-top: -100px;
-       width: 90%;
-       padding-left: 40px;
-       margin-left: auto;
-       margin-right: auto;
+        width: 90%;
+         padding-left: 40px;
+         margin-left: auto;
+         margin-right: auto;
     }
     .imgsection{
         width: 80%;
