@@ -18,6 +18,9 @@ body{
     justify-content: space-between;
    
 }
+.uppersectcion{
+    padding: 0px 40px;
+}
 .logo{
     font-size: 26px;
     font-weight: 900;
