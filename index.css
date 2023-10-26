@@ -42,7 +42,7 @@ body{
 
 }
 .link{
-    padding:0px 10px;
+    padding:0px 20px;
     /* font-weight: 400; */
     line-height: 24px;
     color:  #37447E;
@@ -52,8 +52,8 @@ body{
 .extcomp{
   
     font-family: 'Roboto';
-    font-size: 40px;
-    /* font-weight: 400; */
+    font-size: 50px;
+    font-weight: 600;
     line-height: 66px;
     letter-spacing: 1px;
     text-align: left;
@@ -61,11 +61,7 @@ body{
 
 color: #091133;
 }
-.header{
-    /* display: flex;
-    justify-content: space-between; */
-    /* margin-top: 30px; */
-}
+
 .component1 p{
     width: 100%;
     font-family: 'Roboto';
@@ -121,15 +117,15 @@ color: #091133;
     /* margin-top: 300px; */
 }
 .headinstyle{
-    font-size: 26px;
+    font-size: 36px;
     font-family: 'Roboto';
-    /* font-weight: 400; */
+    font-weight: 600;
     color: #091133;
 }
 .para{
    
 font-family: 'Roboto';
-font-size: 15px;
+font-size: 16px;
 
 text-align: justify;
 color: #6F7CB2;
@@ -150,7 +146,7 @@ text-align: left;
     width: 45%;
 }
 .imagesection img{
-    width: 60%;
+    width: 75%;
     /* height: 90%; */
     margin-left: 100px
 }
@@ -185,7 +181,7 @@ text-align: left;
     justify-content: space-between;
     flex-wrap: wrap;
     position: relative;
-    margin-top: 100px;
+    margin-top: 150px;
     /* left: 150px; */
     /* width: 100%; */
 
@@ -204,7 +200,7 @@ text-align: left;
 }
  .footer{
     margin-top: 30px;
-    height: 500px;
+    height: 520px;
     width: 100%;
     position: relative;
     text-align: center;
@@ -213,8 +209,9 @@ text-align: left;
 } 
 
 #price{
-
+color: #222F65;
 font-family: "Roboto";
+font-weight: 550;
 font-size: 40px;
 
 }
@@ -238,11 +235,11 @@ color: #6F7CB2;
 font-size: 12px;
 color: #6F7CB2;
 position: relative;
-top: 5px;
+top: 1px;
 
 }
 .lastcompoent{
-    margin-top: 50px;
+    margin-top: 170px;
     background-color: #E7ECFF;
     height: 200px;
     padding: 0px 30px;
@@ -259,6 +256,7 @@ top: 5px;
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
+    /* margin-top: px; */
    
 }
 .links li{
