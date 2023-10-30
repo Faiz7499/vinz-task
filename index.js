@@ -27,26 +27,23 @@
 //     });
 // } 
 
-
-
 document.addEventListener('click', function(event) {
   if (event.target.classList.contains('voteButton')) {
-      let value = event.target.querySelector('span').innerHTML;
-      // let value = parseInt(valueElement);
-        console.log(value);
-      if (value == 5) {
-        console.log('yes')
-          value.innerHtml = 6;
+      let valueElement = event.target.querySelector('span');
+      let value = parseInt(valueElement.innerHTML);
+
+      if (value === 5) {
+          valueElement.innerHTML = '6';
       } else if (value === 6) {
-          valueElement.innerHTML = 5;
+          valueElement.innerHTML = '5';
       } else if (value === 3) {
-          valueElement.innerHTML = 4;
+          valueElement.innerHTML = '4';
       } else if (value === 4) {
-          valueElement.innerHTML = 3;
+          valueElement.innerHTML = '3';
       } else if (value === 0) {
-          valueElement.innerHTML = 1;
+          valueElement.innerHTML = '1';
       } else if (value === 1) {
-          valueElement.textContent = 0;
+          valueElement.innerHTML = '0';
       }
   }
 });
