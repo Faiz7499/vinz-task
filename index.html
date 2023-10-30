@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="formdiv">
+        <div class="inpt">
+            <input type="text" name="title" id="title" maxlength="255" placeholder="Enter a new Topic title">
+        </div>
+        <div class="btndiv">
+            <button class="btnstructure" onclick="addtitle()">Submit</button>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="submittitle" id="submittitle">
+        <div class="Topic">
+            <span class="buttons">
+                <button type="button" class="voteButton btn ">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <span class="upvoteCount">5</span></button>
+                <button type="button" class="voteButton btn ">
+                    <i class="fa-regular fa-thumbs-down"></i>
+                    <span class="downvoteCount">3</span></button>
+            </span>
+            <span class="title">This is an existing topic returned from the server (mocked)</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/c34c90f0e4.js" crossorigin="anonymous"></script>
+   <script src="index.js"></script>
+</body>
+
+</html>
