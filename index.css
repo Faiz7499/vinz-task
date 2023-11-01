@@ -1,36 +1,67 @@
+html{
+    font-size: 10px;
+}
+body{
+    margin: 30px 15%;
+    padding: 0;
+    font-family: sans-serif;
+}
 .formdiv{
+    margin: 30px 15% 0px 15%;
     display: flex;
-    justify-content: space-between;
-    width: 60%;
-   
-   margin-top: 100px;
-   margin-left:  200px;
-   margin-right: 200px;
-
+}
+.submittitle{
+    margin: 0px 15%;
 }
 .inpt{
-    width: 85%;
-}
-.inpt input{
     width: 100%;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    display: block;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555;
 }
-.btndiv{
-    width: 10%;
-}
+/* Original input styling */
+.inpt input[type='text'] {
+   font-weight: 500;
+   height: 34px;
+   font: inherit;
+   font-size: 14px;
+   color: inherit;
+   /* color: #5555; */
+   
+  }
+  
+
+  
 .btndiv button{
-    width: 100%;
-    height: 34px;
+    display: inline-block;
     color: #fff;
     background-color: #337ab7;
     border: 1px solid #2e6da4;
-    display: inline-block;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    height: 34px;
+
     padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+   
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.Topic{
+    padding:15px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.buttons{
+    margin-right: 10px;
+}
+.buttons button{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    
     margin-bottom: 0;
     font-size: 14px;
     font-weight: 400;
@@ -38,31 +69,25 @@
     text-align: center;
     border: 1px solid transparent;
     border-radius: 4px;
-}
-.submittitle{
-    width: 60%;
-    padding-top: 20px;
-    margin: 20px 200px;
-}
-.Topic{
-    padding-bottom: 20px;
-    border-bottom: 1px solid #333;
-}
-
-.buttons button{
-    margin-right: 10px;
-    color: #333;
-    background-color: #fff;
     border-color: #ccc;
-    border: 1px solid #ccc;
-    border-radius: 4px ;
 }
-.btn{
+.voteButton{
+    margin: 3px;
+}
+.voteButton:hover{
+   background-color: rgb(222, 222, 222);
+}
+.voteButton i{
+    margin-right: 5px;
+}
+.btnn{
     display: inline-block;
     padding: 6px 12px;
 
 }
 .title{
+    /* font-size: 1px; */
+    padding-top: 40px;
     font-weight: 700;
     font-size: 1.3em;
     word-wrap: break-word;
@@ -73,3 +98,6 @@
 .downvoteCount{
     color: red;
 }
+
+
+
