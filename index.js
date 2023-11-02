@@ -1,7 +1,11 @@
-
+// // Remove a specific item from session storage
+// sessionStorage.clear();
+// sessionStorage.clear();
 
 document.addEventListener('DOMContentLoaded', function() {
+
    let retrievedData = JSON.parse(sessionStorage.getItem('data'));
+   console.log("onload",retrievedData);
   if (!retrievedData) {
     
     let mainArray = [
@@ -11,9 +15,12 @@ document.addEventListener('DOMContentLoaded', function() {
         dislike: 0,
         title: "This is an existing topic returned from the server (mocked)"
       }
-      // Add more initial data if needed
     ];
+    loadtopic(mainArray[0]);
     sessionStorage.setItem('data', JSON.stringify(mainArray));
+   
+   
+
   }
     
     if (Array.isArray(retrievedData)) {
@@ -190,3 +197,4 @@ function addtitle(){
 
 
 
+ 
